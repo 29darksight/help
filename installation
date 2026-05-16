@@ -14,3 +14,6 @@ deb http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmwa
 #neofetch
 https://github.com/dylanaraps/neofetch.git
 
+----------------------------------------------------------
+#digispark new
+https://raw.githubusercontent.com/digistump/arduino-boards-index/master/package_digistump_index.json
