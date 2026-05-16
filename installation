@@ -17,3 +17,9 @@ https://github.com/dylanaraps/neofetch.git
 ----------------------------------------------------------
 #digispark new
 https://raw.githubusercontent.com/digistump/arduino-boards-index/master/package_digistump_index.json
+
+----------------------------------------------------------
+#SSH FOR WINDOWS AUTO START
+Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0
+Set-Service -Name sshd -StartupType Automatic
+Start-Service sshd
